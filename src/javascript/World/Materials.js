@@ -68,7 +68,9 @@ export default class Materials {
             metal: 'matcapMetalTexture',
             gold: 'matcapGoldTexture',
             boye: 'matcapBoyeTexture', // Your custom one
-            skin: 'matcapSkinTexture' // Your custom one
+            skin: 'matcapSkinTexture', // Your custom one
+            skyblue: 'matcapSkyblueTexture', // Your custom one
+            darkGreen: 'matcapDarkgreenTexture' // Your custom one
         }
 
         for (const [name, key] of Object.entries(matcaps)) {

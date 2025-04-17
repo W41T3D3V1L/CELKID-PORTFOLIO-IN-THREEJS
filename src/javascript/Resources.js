@@ -27,9 +27,10 @@ export default class Resources extends EventEmitter
             { name: 'matcapBlue', source: './models/matcaps/blue.png', type: 'texture' },
             { name: 'matcapYellow', source: './models/matcaps/yellow.png', type: 'texture' },
             { name: 'matcapMetal', source: './models/matcaps/metal.png', type: 'texture' },
-            
             { name: 'matcapGold', source: './models/matcaps/gold.png', type: 'texture' },
+            { name: 'matcapSkyblue', source: './models/matcaps/skyblue.png', type: 'texture' },
             { name: 'matcapSkin', source: './models/matcaps/skin.png', type: 'texture' },
+            { name: 'matcapDarkgreen', source: './models/matcaps/darkGreen.png', type: 'texture' },
 
             // Intro
             { name: 'introStaticBase', source: './models/intro/static/base.glb' },

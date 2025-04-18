@@ -39,7 +39,7 @@ export default class Materials {
     setShades() {
         this.shades = {}
         this.shades.items = {}
-        this.shades.indirectColor = '#d04500'
+        this.shades.indirectColor = '#9292a6';
 
         this.shades.uniforms = {
             uRevealProgress: 0,
@@ -123,7 +123,7 @@ export default class Materials {
     setFloorShadow() {
         this.items.floorShadow = new FloorShadowMaterial()
         this.items.floorShadow.depthWrite = false
-        this.items.floorShadow.shadowColor = '#d04500'
+        this.items.floorShadow.shadowColor = '#9292a6';
         this.items.floorShadow.uniforms.uShadowColor.value = new THREE.Color(this.items.floorShadow.shadowColor)
         this.items.floorShadow.uniforms.uAlpha.value = 0
 

@@ -70,7 +70,15 @@ export default class Materials {
             boye: 'matcapBoyeTexture', // Your custom one
             skin: 'matcapSkinTexture', // Your custom one
             skyblue: 'matcapSkyblueTexture', // Your custom one
-            darkGreen: 'matcapDarkgreenTexture' // Your custom one
+            darkGreen: 'matcapDarkgreenTexture', // Your custom one // Your custom one
+            skin2: 'matcapSkin2Texture', // Your custom one // Your custom one
+            hair: 'matcapHairTexture', // Your custom one
+            spets: 'matcapSpetsTexture', // Your custom one
+            logoorange: 'matcapLogoorangeTexture', // Your custom one
+            awardorange: 'matcapAwardorangeTexture', // Your custom one
+            manorange: 'matcapManorangeTexture' // Your custom one
+
+
         }
 
         for (const [name, key] of Object.entries(matcaps)) {
